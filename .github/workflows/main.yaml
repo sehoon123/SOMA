@@ -25,10 +25,10 @@ jobs:
         echo "WORKFLOW: $WORKFLOW_LEVEL"
         echo "JOB 1: $JOB_LEVEL_1"
         echo "JOB 2: $JOB_LEVEL_2"
-        echo "STEP 11: ${{env:STEP_LEVEL_11}}"
-        echo "STEP 12: ${{env:STEP_LEVEL_12}}"
-        echo "STEP 21: ${{env:STEP_LEVEL_21}}"
-        echo "STEP 22: ${{env:STEP_LEVEL_22}}"
+        echo "STEP 11: ${{env.STEP_LEVEL_11}}"
+        echo "STEP 12: ${{env.STEP_LEVEL_12}}"
+        echo "STEP 21: ${{env.STEP_LEVEL_21}}"
+        echo "STEP 22: ${{env.STEP_LEVEL_22}}"
 
     - name: 'Say Hello World 2'
       shell: pwsh
@@ -37,11 +37,11 @@ jobs:
       run: |
         echo "WORKFLOW: $env:WORKFLOW_LEVEL"
         echo "JOB 1: $env:JOB_LEVEL_1"
-        echo "JOB 2: $env:JOB_LEVEL_22"
-        echo "STEP 11: ${{env:STEP_LEVEL_11}}"
-        echo "STEP 12: ${{env:STEP_LEVEL_12}}"
-        echo "STEP 21: ${{env:STEP_LEVEL_21}}"
-        echo "STEP 22: ${{env:STEP_LEVEL_22}}"
+        echo "JOB 2: $env:JOB_LEVEL_2"
+        echo "STEP 11: ${{env.STEP_LEVEL_11}}"
+        echo "STEP 12: ${{env.STEP_LEVEL_12}}"
+        echo "STEP 21: ${{env.STEP_LEVEL_21}}"
+        echo "STEP 22: ${{env.STEP_LEVEL_22}}"
 
 
   second-job:
@@ -62,10 +62,10 @@ jobs:
         echo "WORKFLOW: $WORKFLOW_LEVEL"
         echo "JOB 1: $JOB_LEVEL_1"
         echo "JOB 2: $JOB_LEVEL_2"
-        echo "STEP 11: ${{env:STEP_LEVEL_11}}"
-        echo "STEP 12: ${{env:STEP_LEVEL_12}}"
-        echo "STEP 21: ${{env:STEP_LEVEL_21}}"
-        echo "STEP 22: ${{env:STEP_LEVEL_22}}"
+        echo "STEP 11: ${{env.STEP_LEVEL_11}}"
+        echo "STEP 12: ${{env.STEP_LEVEL_12}}"
+        echo "STEP 21: ${{env.STEP_LEVEL_21}}"
+        echo "STEP 22: ${{env.STEP_LEVEL_22}}"
 
 
     - name: 'Say Hello World 2'
@@ -76,8 +76,8 @@ jobs:
         echo "WORKFLOW: $env:WORKFLOW_LEVEL"
         echo "JOB 1: $env:JOB_LEVEL_1"
         echo "JOB 2: $env:JOB_LEVEL_2"
-        echo "STEP 11: ${{env:STEP_LEVEL_11}}"
-        echo "STEP 12: ${{env:STEP_LEVEL_12}}"
-        echo "STEP 21: ${{env:STEP_LEVEL_21}}"
-        echo "STEP 22: ${{env:STEP_LEVEL_22}}"
+        echo "STEP 11: ${{env.STEP_LEVEL_11}}"
+        echo "STEP 12: ${{env.STEP_LEVEL_12}}"
+        echo "STEP 21: ${{env.STEP_LEVEL_21}}"
+        echo "STEP 22: ${{env.STEP_LEVEL_22}}"
 
