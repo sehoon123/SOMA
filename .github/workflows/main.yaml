@@ -22,7 +22,7 @@ jobs:
       run: |
         var_1="This is the value 1 in the step 1"
 
-        echo "STEPSET_VALUE_1"=$var_1" >> $GITHUB_ENV
+        echo "STEPSET_VALUE_1=$var_1" >> $GITHUB_ENV
 
     - name: 'Set environment variable 1'
       
@@ -33,7 +33,7 @@ jobs:
 
         echo "STEPSET_VALUE_2=$var_2" | Out-File -FilePath $env:GITHUB_ENV - Encoding utf-8 -Append
       
-    - name: 'Check environment variables'
+    - name: Check environment variables
       shell: bash
       run: |
         echo "preset value: ${{ env.PRESET_VALUE }}"
