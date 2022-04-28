@@ -22,7 +22,7 @@ jobs:
       shell: bash
       run: |
         var_1="This is the value 1 in the step 1"
-
+        echo "::add-mask::$val_1"
         echo "::set-output name=first_value::$val_1"
 
     - name: 'Check output value'
