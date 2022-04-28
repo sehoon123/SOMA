@@ -1,0 +1,70 @@
+{
+    title: '설빙 서울선릉점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220220_60%2F1645367758905cSFrV_JPEG%2Fupload_83320d64ee0fe7ddf62d9ca1c9a5a0d5.jpeg',
+    liked: false
+},
+{
+    title: '아방베이커리 센터필드점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220421_16%2F1650510271286ubGpi_JPEG%2Fupload_527ba0b6b9992dd521312ef2ba4c5a02.jpeg',
+    liked: false
+},
+{
+    title: '카페큐릉',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211126_169%2F16378599912942dAkE_PNG%2F%25C4%25AB%25C6%25E4%25C5%25A5%25B8%25AA2%25C8%25A3%25C1%25A1_%25B8%25DE%25B4%25BA%25C6%25C7.PNG',
+    liked: false
+},
+{
+    title: '커피빈 선릉역3번출구세방빌딩점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20211212_140%2F1639269569321S7udE_JPEG%2Fupload_a8343c9da3546d887baa75fc63b016e3.jpg',
+    liked: false
+},
+{
+    title: '커피스니퍼 센터필드점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220326_20%2F1648266570801eXDBh_JPEG%2Fupload_7260f136c4b046c8f46a1b9045968533.jpeg',
+    liked: false
+},
+{
+    title: '하입빈즈',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220418_50%2F1650208714483gKXaX_JPEG%2Fupload_00e35d686a0fb407bd78e382d228ae77.jpeg',
+    liked: false
+},
+{
+    title: '그레이커피',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220225_97%2F16457712594633tMlO_JPEG%2Fupload_ccca764387da244bb3dbe6f25f47d453.jpg',
+    liked: false
+},
+{
+    title: '로브니',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191203_162%2F1575372579134hJHWO_PNG%2F1P-4hDaBFu0-3-rMZ1CvONyE.png',
+    liked: false
+},
+{
+    title: '비건비거닝',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MjlfMTEy%2FMDAxNjI3NTI1NDgzNDMw.jPFdRQxnasZLnY4vjt8RkprwVIbogHSatjszESTeWcgg.BsnTwKkmCTLzNX8C7EYUCPa2_sgSY1pla9i-aYd7iA8g.JPEG.coco_factory%2FIMG_8656.JPG',
+    liked: false
+},
+{
+    title: '빌리엔젤 신라스테이점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201225_85%2F1608896805498J6Fyr_JPEG%2FUz6zShA0G3IWT7tuCiBfuA1S.jpeg.jpg',
+    liked: false
+},
+{
+    title: '커피루루',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20201029_202%2F1603969017702nNpSl_JPEG%2Fupload_0fb9183e29a2aacc31d785bca8f62bf9.jpg',
+    liked: false
+},
+{
+    title: '더빈마켓',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMzBfMTg4%2FMDAxNjE3MTA4MjM5ODE5.LRb2tKVh0DEZUC2EwQKChYt_tezbx96skVdQzkULUxwg.WYICgZ78dWQQQgeacfyDiTSEt5jIQBp20hgMEnB16xMg.JPEG.mi910613%2FKakaoTalk_20210329_080259829_21.jpg',
+    liked: false
+},
+{
+    title: '로스트엔트리',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220404_266%2F1649080347986EaIVC_JPEG%2Fupload_a781b9c1f393258fc84013d30503da8b.jpeg',
+    liked: false
+},
+{
+    title: '유로스커피 로스터스 센터필드점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMjdfMTQ2%2FMDAxNjQ4MzUzNDE3MzE0.IjFM4vXG4Jr9xcLqc7l8Unx8o1_qlJLv4gHuxUxQ_Xkg.RM2mgLnybYHHc-Z8ezXi9-UjXnt59NpGeIZ51jXBnW0g.JPEG.0321tngus%2Foutput_2020548638.jpg',
+    liked: false
+},

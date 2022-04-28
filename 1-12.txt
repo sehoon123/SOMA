@@ -1,0 +1,60 @@
+{
+    title: '카페데베르 선릉점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210624_244%2F1624501484373nI84L_JPEG%2F7n3mdY2s0OXu__MMj253NKiy.JPG.jpg',
+    liked: false
+},
+{
+    title: '스타벅스 테헤란로아남타워점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220410_139%2F16495944809667xTFR_JPEG%2Fupload_b279904bb795a94629b3ab5a867f3da7.jpg',
+    liked: false
+},
+{
+    title: '아리스타커피 선릉2호점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20200608_178%2F1591591017031nCJIb_JPEG%2Fupload_b1e0849abdb1a6572b1635d499cb6f58.jpeg',
+    liked: false
+},
+{
+    title: '착형 선릉점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA2MjhfNDQg%2FMDAxNDk4NjE2MTU5MDA2.PvL76Ttb8Wx_3WGebusvLMF86T1W1qUch1ZkI8ajq58g.CN-WM_Co56XPVnCYojT3T-a7cCT2raKVIYAXVq4neEMg.JPEG.imsera2%2FKakaoTalk_Photo_2016-12-20-14-11-01.jpg',
+    liked: false
+},
+{
+    title: '타이지엔 선릉역점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20211210_263%2F1639130664302Y6n6j_JPEG%2Fupload_f0bc85290db0876d4d8b601e77cc0ed7.jpg',
+    liked: false
+},
+{
+    title: '테라바이트',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210820_98%2F1629434868130RdCJN_JPEG%2Fupload_1c4c069accd78aed2c011560773bc167.jpg',
+    liked: false
+},
+{
+    title: '파머스빈 선릉역점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211006_134%2F163350964929807O9k_JPEG%2F1NWLtLVa8bZsJfAI-uh1ewJ6.jpg',
+    liked: false
+},
+{
+    title: '매머드커피 역삼점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150901_259%2F14410462121062F9VA_JPEG%2FSUBMIT_1376028113253_33049638.jpg',
+    liked: false
+},
+{
+    title: '투썸플레이스 선릉ING점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAzMDZfNjcg%2FMDAxNDg4ODA4ODc3MTQ3.ZGhxmAjWojYhHQe3tTUyqzOPXOY4_dCZTUp7kn31iEsg.Ca1-IJpH8HnRUeLwmZx17M_PN_egtNX9bSDaoaaAS9Ug.JPEG.clickjkjk%2FDSC04523.JPG',
+    liked: false
+},
+{
+    title: '공차 선릉한신인터밸리점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMDRfNCAg%2FMDAxNjEyNDEzMjk5NjM3.RBHZanR7C_TlISIIij7-YQEkyG70DR9EjPnRkfElHiAg.ptKVBv29rWewQpA_byN44CCLcaODJWmQU7M3NkK_EFQg.JPEG.alswntbtb%2FIMG_1072.jpg',
+    liked: false
+},
+{
+    title: '댓커피',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220329_223%2F16485151116849p3BU_JPEG%2FF631CF9E-45EA-40C3-94E2-398E9C84F724.jpeg',
+    liked: false
+},
+{
+    title: '바나프레소 선릉점',
+    image: 'https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA1MzBfMjM2%2FMDAxNTI3NjU3NTE1Mzky.WpDhdCvlHRH9-uCXqptxTIb-0YuPvTrRj2r_88QPEtIg.0MhdN_uX8F3WiAk0nSeW5QkbDTbO_XusV87rfgitTlAg.JPEG.cheolmin1212%2FIMG_4408.jpg',
+    liked: false
+},
