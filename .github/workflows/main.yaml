@@ -13,26 +13,27 @@ on:
 jobs:
   first-job:
     name: 'First Job'
-
-    if: github.event_name == 'push'
-
-    strategy:
-      matrix:
-        os: ['ubuntu-latest','macos-latest','windows-latest ']
-
-    runs-on: ${{ matrix.os }}
-
+    
+    runs-on: 'ubuntu-latest'
+    
     steps:
-    - name: 'Set output value'
-      id: first
-      shell: bash
-      run: |
-        var_1="This is the value: hello, world"
-
-        echo "::set-output name=first_value::$val_1"
-
-    - name: 'Check output value on ${{ matrix.os }}'
+    - name: 'Say Hello World 1'
       if: matrix.os == 'ubuntu-latest'
       shell: pwsh
       run: |
-        echo "${{ steps.first.outputs.first_value }}"
+        echo "Hello world from first job"
+
+  second-job:
+    name: 'Second Job'
+    
+    needs: first-job 
+    
+    runs-on: 'ubuntu-latest'
+    
+    steps:
+    - name: 'Say Hello World 2'
+      if: matrix.os == 'ubuntu-latest'
+      shell: pwsh
+      run: |
+        echo "Hello world from second job"
+        
