@@ -12,10 +12,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-      JOB_LEVEL_1: "This value comes from the JOB level 1"
-  
-
     steps:
     - name: 'Set output value'
       id: first
