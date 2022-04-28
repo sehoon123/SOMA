@@ -1,10 +1,12 @@
 name: 'SWM Github Actions Basic'
 
-on: push
+on: ['push', 'pull_request']
 
 jobs:
   first-job:
     name: 'First Job'
+
+    if: github.event_name == 'pull_request'
 
     strategy:
       matrix:
