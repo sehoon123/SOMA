@@ -3,12 +3,12 @@ name: 'SWM Github Actions Basic'
 on: 
   push:
     branches:
-    - main
+    - master
     tags:
     - 'v*'
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   first-job:
@@ -36,4 +36,3 @@ jobs:
       shell: pwsh
       run: |
         echo "${{ steps.first.outputs.first_value }}"
-        
