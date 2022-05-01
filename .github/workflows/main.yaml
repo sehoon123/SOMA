@@ -3,7 +3,7 @@ name: 'SWM Github Actions Basic'
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
   first_job:
     name: 'First Job'
