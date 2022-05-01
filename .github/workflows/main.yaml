@@ -22,3 +22,4 @@ jobs:
           "text": "Message sent by GitHub Actions from ${{ github.repository }}",
           "markdown": "Message sent by **GitHub Actions** from `${{ github.repository }}`"
         }'
+
