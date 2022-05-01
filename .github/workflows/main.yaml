@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Send message to Webex Space
-      uses: ./
+      uses: /Users/sehun/PycharmPorjects/SOMA
       with:
         webexToekn: ${{ secrets.WEBEX_TOKEN }}
         webexRoomId: ${{ secrets.WEBEX_ROOM_ID }}
