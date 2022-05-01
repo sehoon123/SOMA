@@ -1,41 +1,24 @@
 name: 'SWM Github Actions Basic'
 
-on: push
-
-env:
-  PRESET_VALUE: "This is PRESET value"
-
-
+on: 
+  push:
+    branches:
+      - main
 jobs:
   first_job:
     name: 'First Job'
 
-    runs-on: ubuntu-latest
-
-    env:
-      JOB_LEVEL_1: "This value comes from the JOB level 1"
-  
+    runs-on: 'ubuntu-latest'
 
     steps:
-    - name: 'Set environment variable 1'
-      shell: bash
+    - name: Send message to Webex Space
+      shell : bash
       run: |
-        var_1="This is the value 1 in the step 1"
-
-        echo "STEPSET_VALUE_1=$var_1" >> $GITHUB_ENV
-
-    - name: 'Set environment variable 1'
-      
-      shell: pwsh
-      
-      run: |
-        $var_2 = "This is the value 2 in the step 2"
-
-        echo "STEPSET_VALUE_2=$var_2" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf-8 -Append
-      
-    - name: Check environment variables
-      shell: bash
-      run: |
-        echo "preset value: ${{ env.PRESET_VALUE }}"
-        echo "stepset value 1: ${{ env.STEPSET_VALUE_1 }}"
-        echo "stepset value 2: ${{ env.STEPSET_VALUE_2 }}"
+        curl --location --request POST 'https://webexapis.com/v1/messages' \
+        --header "Authorization: Bearer ${{ secrets.WEBEX_TOKEN }}" \
+        --header "Content-Type: application/json" \
+        --data-raw '{
+          "roomId": "${{ secrets.WEBEX_ROOM_ID }}",
+          "text": "Message sent by GitHub Actions from ${{ github.repository }}",
+          "markdown": "Message sent by **GitHub Actions** from `${{ github.repository }}`"
+        }'
