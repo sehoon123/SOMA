@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/chekout@v2
+      uses: ./
 
 
     - name: Send message to Webex Space
